@@ -1,4 +1,4 @@
-			RK4
+			RK4_1
 
 			i. Description
 			ii. Dependencies
@@ -47,11 +47,11 @@ iii. INSTRUCTIONS:
 
 4. Run the program from the command line in the following format:
    
-	$ ./RK4 <timestep> <length> <output interval>
+	$ ./RK4_1 <timestep> <length> <output interval>
 
    For example, running the following:
 
-	$ ./RK4 0.1 100 10
+	$ ./RK4_1 0.1 100 10
 
    will use a time step of 0.1, for 100 length units and produce 
    output every 10 timesteps (i.e. every 10*0.1 = 1 length units).
