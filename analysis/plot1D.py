@@ -26,7 +26,7 @@ def plot1D (filename):
     plt.xlabel('x')
     plt.ylabel('y')
     plt.title('Numerical Solution (Runge-Kutta 4th)')
-    
+    plt.grid()
     # Draw Plot
     plt.show()
 	
